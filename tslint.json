@@ -1,0 +1,6 @@
+{
+    "extends": "stricter-tslint-config",
+    "rules": {
+        // NOTE: Please, do not override rules from the global config without stating a reason. :)
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "outDir": "dist",
+        "allowJs": false,
+        "sourceMap": true,
+        "target": "es2017",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "strict": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "noImplicitAny": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "importHelpers": true,
+        "typeRoots": [
+            "./node_modules/@types/"
+        ]
+    },
+    "include": [
+        "./**/*"
+    ],
+    "exclude": [
+        "./dist"
+    ]
+}
