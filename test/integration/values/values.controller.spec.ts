@@ -2,7 +2,7 @@ import * as request from 'supertest';
 
 import { serviceServer } from '../../../src';
 
-describe('Values controller', () => {
+describe.skip('Values controller', () => {
     it('should get all examples', async () =>
         request(serviceServer)
             .get('/api/values')
